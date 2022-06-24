@@ -1,0 +1,67 @@
+/* Fill in all the CSS rules. All the selectors you need are listed */
+
+/* CSS reset */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Body  */
+
+body {
+    margin-left: 30px;
+    margin-right: 270 px;
+    height: 504px;
+    width: 264px;
+}
+
+.card {
+    border-style:solid;
+    border-color: white;
+    width:350px;
+    border-radius:20px 20px 20px 20px; 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    display: inline-block;
+}
+
+img {
+    border-radius: 20px 20px 0 0;
+    width: 350px;
+    height: 264px;
+}
+
+.card-text {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.category {
+    font-size: 12px;
+    color: blue;
+    padding-top: 0px;
+    padding-bottom: 7px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    text-align: left;
+
+}
+
+p {
+    color: rgb(63, 63, 63);
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    text-align: left;
+    width: 350px;
+}
